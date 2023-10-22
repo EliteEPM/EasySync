@@ -1,0 +1,11 @@
+# Ignore pycache and project files
+anaplan/__pycache__/
+__pycache__
+log
+scratch.py
+
+# Ignore .env files
+*.env
+
+# Ignore .pem files
+*.pem
