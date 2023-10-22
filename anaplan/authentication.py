@@ -65,7 +65,7 @@ class AnaplanAuth:
             ) as req:
                 j = json.loads(req.text)
             self._token = self.validate(j)
-            self._expires_at = datetime.utcnow() + timedelta(minutes=35)
+            self._expires_at = datetime.utcnow() + timedelta(minutes=30)
             return self._token
 
         elif self.via == 'certificate':
