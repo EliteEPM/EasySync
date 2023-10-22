@@ -71,13 +71,13 @@ class AnaplanAuth:
         elif self.via == 'certificate':
             j = self.cert_token(self.public, self.private)
             self._token = self.validate(j)
-            self._expires_at = datetime.utcnow() + timedelta(minutes=35)
+            self._expires_at = datetime.utcnow() + timedelta(minutes=30)
             return self._token
 
         elif self.via == 'oauth_refresh':
             j = self.oauth_refresh(self.file_env)
             self._token = 'AnaplanAuthToken ' + j['access_token']
-            self._expires_at = datetime.utcnow() + timedelta(minutes=35)
+            self._expires_at = datetime.utcnow() + timedelta(minutes=30)
             return self._token
 
         else:
