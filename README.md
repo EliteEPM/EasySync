@@ -92,7 +92,7 @@ conn.upload('113000000000', 'filename.csv')
 ```
 
 #### Demo of full run
-
+<img src="repo_images/full_run.gif">
 
 ## Maintenance
 
