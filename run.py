@@ -46,8 +46,7 @@ file_view_id = '' # saved view in integration module with request parameters
 file_user_init = ''  # line item where user begins pull
 file_sys_init_1 = ''  # Bool to mark integration process has begun
 file_sys_init_2 = ''  # Bool to mark download from source has begun
-# Bool to mark file uploaded into Anaplan and processing
-file_sys_init_3 = ''
+file_sys_init_3 = ''  # Bool to mark file uploaded into Anaplan and processing
 file_sys_time = ''  # Text on Anaplan to update latest run time
 file_upload_file = ''  # ID of file to be uploaded
 file_upload_proc = ''  # Process to load the file
