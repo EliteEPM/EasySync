@@ -3,7 +3,7 @@ Run this script as permanently alive to login to Anaplan and constantly check fo
 new integration requests. If request is detected, use the anaplan library to upload, monitor
 and close out the request
 
-Visit https://github.com/EliteEPM/EasySync for a full How-To guide
+Visit https://github.com/EliteEPM/EasySync/wiki for a full How-To guide
 """
 
 from time import sleep
