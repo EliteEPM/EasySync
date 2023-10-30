@@ -42,8 +42,7 @@ if not os.path.exists('log'):
 
 # File 1 set parameters
 int_module_id = ''  # integration module name where user has access
-# saved view in integration module with request parameters
-file_view_id = ''
+file_view_id = '' # saved view in integration module with request parameters
 file_user_init = ''  # line item where user begins pull
 file_sys_init_1 = ''  # Bool to mark integration process has begun
 file_sys_init_2 = ''  # Bool to mark download from source has begun
